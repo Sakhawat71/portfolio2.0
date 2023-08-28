@@ -1,0 +1,58 @@
+body {
+    background-color: #FFF8F3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*================================== nav ================================== */
+
+
+#name-span {
+    color: #FD6E0A;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+nav>ul {
+    display: flex;
+    float: right;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* ================================= button ====================================  */
+.btn-primary {
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 15px;
+    font-weight: 500;
+}
