@@ -104,3 +104,29 @@ header{
 .banner-contain{
     width: 500px;
 }
+
+/* ===================================== main ============================ */
+main{
+    max-width: 1140px;
+    display: flex;
+    margin: auto;
+}
+
+.about{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 110px;
+    margin: 110px 0;
+    background-color: #FFF8F3;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-description{
+    margin: 0;
+}
+.about-info{
+    text-align: center;
+}
