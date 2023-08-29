@@ -74,7 +74,10 @@ nav a {
     text-align: center;
     margin: 50px 0;
 }
+.submit{
+    width: 85px !important;
 
+}
 /* ====================== header ================================= */
 
 header {
@@ -195,4 +198,40 @@ main {
 .section-titel{
     font-size: 30px;
     margin: 50px 0;
+}
+
+/* ===================== footer ==================== */
+
+.footer-section{
+    display: flex;
+    background-color:#FFF8F3;
+    padding: 110px 195px ;
+    gap: 100px;
+    justify-content: space-around;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column-titel{
+    font-weight: 30px;
+}
+.social-links > a{
+    padding-right: 15px;
+}
+.contact input textarea{
+    display: block;
+
+}
+.contact > input{
+    width: 390px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+}
+textarea{
+    width: 390px;
+    padding: 10px 10px;
+    height: 150px;
+    resize: none;
 }
